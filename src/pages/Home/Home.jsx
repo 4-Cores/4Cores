@@ -47,7 +47,7 @@ export default function Home(){
         };
     }, []);
 
-    // Todo: change css display
+    // Todo: change css display and css files
 
     return(
         <>
