@@ -5,13 +5,12 @@
     position: relative;
 
     .projects-top{
+      position: relative;
+      z-index: 2;
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 69.2%, #ffffff 93.75%), url(/images/home-bg.png) lightgray -80px 0px / 111.111% 100% no-repeat;
-      background-position: center;
-      height:100vh;
       flex-shrink: 0;
       padding-top: 7.5%;
       transition: ease-in 0.1s;
@@ -39,8 +38,9 @@
     }
 
     .projects-bottom{
+      position: relative;
+      z-index: 2;
       width: 100%;
-      margin-top: -45vh;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;

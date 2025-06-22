@@ -35,7 +35,7 @@ export default function Projects() {
 
     return(
         <section className="projects">
-            <section className="projects-bg"></section>
+            <section className="top-bg"></section>
             <section className="projects-top">
                 <h2>4CORES</h2>
                 <h1>{t('projectspage.title')}</h1>
