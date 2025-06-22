@@ -35,6 +35,7 @@ export default function Projects() {
 
     return(
         <section className="projects">
+            <section className="projects-bg"></section>
             <section className="projects-top">
                 <h2>4CORES</h2>
                 <h1>{t('projectspage.title')}</h1>
@@ -52,7 +53,7 @@ export default function Projects() {
                     />
                 ))}
             </section>
-            <div style={{ display: "flex", justifyContent: "center", marginTop: 24 }}>
+            <div style={{display: "flex", justifyContent: "center", marginTop: 24}}>
                 <Pagination
                     current={current}
                     pageSize={pageSize}
@@ -61,6 +62,6 @@ export default function Projects() {
                     showSizeChanger={false}
                 />
             </div>
-        </section>
-    );
-}
+            </section>
+            );
+            }
