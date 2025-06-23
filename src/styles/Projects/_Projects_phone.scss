@@ -25,6 +25,7 @@
       flex-shrink: 0;
       padding-top: 7.5%;
       transition: ease-in 0.1s;
+      animation: fadeIn 1s ease-in-out;
 
       h1{
         width: 60%;
@@ -35,10 +36,7 @@
       }
 
       h2{
-        font-family: "Oxanium", sans-serif;
-        color: #000814;
-        font-size:1.5rem;
-        font-weight: 600;
+        display: none;
       }
 
       p{
