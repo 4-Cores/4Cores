@@ -60,7 +60,7 @@ export default function Home(){
                         <NavLink to="/About" id="propos" dangerouslySetInnerHTML={{__html: (t('about'))}}/>
                     </article>
                     <article className="right">
-                        <NavLink to="/Soon" id="realisations" dangerouslySetInnerHTML={{__html: (t('projects'))}}/>
+                        <NavLink to="/Projects" id="realisations" dangerouslySetInnerHTML={{__html: (t('projects'))}}/>
                     </article>
 
                 </article>
