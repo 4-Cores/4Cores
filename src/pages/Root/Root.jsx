@@ -10,8 +10,8 @@ export default function Root(){
 
     return(
         <I18nextProvider i18n={i18n}>
+            <ScrollToTop />
             <div>
-                <ScrollToTop/>
                 <section className="header">
                     <section className="left">
                         <NavLink to="/Home">
@@ -65,7 +65,7 @@ export default function Root(){
                     </nav>
                 </section>
 
-                <div className="content">
+                <div className="content" id="content">
                     <Outlet/>
                 </div>
 
