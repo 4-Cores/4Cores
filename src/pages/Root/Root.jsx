@@ -1,6 +1,5 @@
-import { NavLink, Outlet } from 'react-router-dom';
+import {NavLink, Outlet} from 'react-router-dom';
 import ScrollToTop from '../scripts/ScrollTop.jsx';
-import CookieBanner from "../scripts/Cookie-Banner.jsx";
 import LanguageSwitcher from "./LanguageSwitcher.jsx";
 import {I18nextProvider, useTranslation} from "react-i18next";
 import i18n from "i18next";
