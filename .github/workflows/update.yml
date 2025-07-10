@@ -20,5 +20,5 @@ jobs:
 
       - name: Push to public repo
         run: |
-          git remote add public https://x-access-token:${{ secrets.VERCEL_REPO_4CORES }}@github.com/ALPHA-1503/test-cloning.git
+          git remote add public https://x-access-token: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@github.com/ALPHA-1503/test-cloning.git
           git push public master --force
