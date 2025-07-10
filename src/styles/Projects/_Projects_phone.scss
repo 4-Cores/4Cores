@@ -58,14 +58,14 @@
       .project-card{
         width: 100%;
         min-height: 25vh;
-        max-height: 60vh;
+        max-height: fit-content;
         height: fit-content;
         overflow: hidden;
         position: relative;
         border-radius: 15px;
         background: #f3f3f3;
         margin-top: 2%;
-        padding: 2% 2% 1.5% 2%;
+        padding: 2% 2% 2.5% 2%;
         margin-bottom: 5%;
 
         img{

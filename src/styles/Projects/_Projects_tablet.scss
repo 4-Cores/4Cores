@@ -51,14 +51,14 @@
       .project-card{
         width: 48vw;
         min-height: 25vh;
-        max-height: 60vh;
+        max-height: fit-content;
         height: fit-content;
         overflow: hidden;
         position: relative;
         border-radius: 15px;
         background: #f3f3f3;
         margin-top: 2%;
-        padding: 1% 1% 1.5% 1%;
+        padding: 1% 1% 2.5% 1%;
 
         img{
           width: 100%;
