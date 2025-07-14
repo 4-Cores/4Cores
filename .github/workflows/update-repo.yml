@@ -17,7 +17,9 @@ jobs:
         uses: actions/checkout@v4
         
 
-      - name: Push to destination repo
+      - name: Push to destination
         run: |
-          git add .
-          git push https://github.com/ALPHA-1503/test-cloning.git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote add destination https://4-Cores:${{ secrets.PUSH_TOKEN }}@github.com/ALPHA-1503/test-cloning.git
+          git push destination main --force
