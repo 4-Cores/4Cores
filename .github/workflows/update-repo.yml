@@ -12,10 +12,12 @@ jobs:
     steps:
       - name: Checkout source repo
         uses: actions/checkout@v4
-
+        
+        
       - name: Debug secret (NE PAS LAISSER EN PROD)
-        run: echo "Token size: ${{ secrets.UPDATE_REPO }}"
+        run: echo "Token: ${{ secrets.UPDATE_REPO }}"
 
+        
       - name: Push to destination repo
         run: |
           git config --global user.name "GitHub Action"
