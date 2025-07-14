@@ -17,6 +17,15 @@ jobs:
         uses: actions/checkout@v4
         
 
+      - name: Debug Token Input
+        run: |
+          echo "Using token for user: 4-Cores"
+          # DO NOT PRINT THE FULL TOKEN. Instead, print a masked version or its length.
+          TOKEN_VALUE="${{ secrets.PUSH_TOKEN }}"
+          echo "Token starts with: ${TOKEN_VALUE:0:5} and ends with: ${TOKEN_VALUE: -5}"
+          echo "Token length: ${#TOKEN_VALUE}"
+        
+
       - name: Push to destination
         run: |
           git config user.name "github-actions[bot]"
