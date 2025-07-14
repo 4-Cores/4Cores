@@ -15,7 +15,7 @@ jobs:
         
         
       - name: Debug secret (NE PAS LAISSER EN PROD)
-        run: echo "Token: ${{ secrets.UPDATE_REPO }}"
+        run: echo "Token:" ${{ secrets.UPDATE_REPO }}
 
         
       - name: Push to destination repo
