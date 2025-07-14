@@ -18,5 +18,5 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
 
-          git remote add r2 https://x-access-token:${{ secrets.UPDATE_REPO }}@github.com/ALPHA-1503/4cores.git
+          git remote add r2 https://x-access-token:${{ secrets.UPDATE_REPO }}@github.com/ALPHA-1503/test-cloning.git
           git push --force r2 master
