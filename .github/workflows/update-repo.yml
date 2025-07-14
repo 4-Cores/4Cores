@@ -18,5 +18,4 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git remote add r2 https://x-access-token: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@github.com/ALPHA-1503/test-cloning.git
-          git push --force r2 master
+          git push 'https://x-access-token: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@github.com/ALPHA-1503/test-cloning.git' master --force
