@@ -19,4 +19,4 @@ jobs:
           git config --global user.email "action@github.com"
 
           git remote add r2 https://x-access-token:${{ secrets.UPDATE_REPO }}@github.com/ALPHA-1503/4cores.git
-          git push --force 4cores master
+          git push --force r2 master
