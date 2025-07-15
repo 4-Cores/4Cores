@@ -1,12 +1,50 @@
-# React + Vite
+# 4CORES's Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React project powers our current website at https://www.4cores.be. We're proud to make its source code publicly available under an open-source license.
+The website showcases our services to potential clients and provides a contact form for work inquiries.
 
-Currently, two official plugins are available:
+# Pages
+* Home
+* About
+* Projects
+* Contact
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# React Vite
+The main framework we are using is React version : v19.0.0
+Vite version : v6.2.0
+**We use pnpm as our package manager instead of npm — make sure to install it if you haven’t already.**
+* Documentation : https://pnpm.io/installation
 
-## Expanding the ESLint configuration
+# Installation
+pnpm install
+pnpm run dev
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Depedencies
+* antd : 5.26.1
+* dotenv : 16.5.0
+* express : 4.21.2
+* hamburger-react": 2.5.2
+* i18next : 24.2.3
+* i18next-browser-languagedetector : 8.0.4
+* js-cookie": 3.0.5
+* node-mailjet": 6.0.8
+* prop-types": 15.8.1
+* react": 19.0.0
+* react-dom": 19.0.0
+* react-i18next": 15.4.1
+* react-router-dom": 7.2.0
+* simplebar-react": 3.3.0
+* swiper : 11.2.5
+
+# License
+This source code is provided for personal and educational use only.
+You are free to read, study, and modify the code for non-commercial purposes.
+Redistribution, commercial use, or integration into other projects (even modified) is strictly prohibited without prior written permission.
+All rights reserved by SASPJ 4CORES.
+
+
+
+
+
+
