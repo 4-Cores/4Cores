@@ -1,6 +1,6 @@
 # 4CORES's Website
 
-This React project powers our current website at https://www.4cores.be. We're proud to make its source code publicly available under an custom licence.
+This React project powers our current website at https://www.4cores.be. We're proud to make its source code publicly available under a custom licence.
 The website showcases our services to potential clients and provides a contact form for work inquiries.
 
 # Pages
