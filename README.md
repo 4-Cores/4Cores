@@ -16,8 +16,11 @@ Vite version : v6.2.0
 * Documentation : https://pnpm.io/installation
 
 # Installation
+```bash
 pnpm install
 pnpm run dev
+```
+
 
 
 # Depedencies
