@@ -82,7 +82,7 @@ export default function Root(){
                         <article className="left">
                             {currentYear}
                             <p dangerouslySetInnerHTML={{__html: (t('rootpage.4cores'))}}/>
-                            <p dangerouslySetInnerHTML={{__html: (t('rootpage.conditions'))}}/>
+                            <a href="/docs/Conditions_generales_utilisation_4cores.pdf" download> {t('rootpage.conditions')}</a>
                             <NavLink to={"/cookie"} dangerouslySetInnerHTML={{__html: (t('rootpage.cookies-policy'))}}/>
                             <p>TVA : BE1021.374.168</p>
                         </article>
@@ -99,7 +99,7 @@ export default function Root(){
                         <NavLink to="/Contact" dangerouslySetInnerHTML={{__html: (t('contact'))}}/>
                     </section>
                     <section className="bottom">
-                        <p dangerouslySetInnerHTML={{__html: (t('rootpage.general-conditions'))}} />
+                        <a href="/docs/Conditions_generales_utilisation_4cores.pdf" download> {t('rootpage.conditions')}</a>
                         <NavLink to="/cookie" dangerouslySetInnerHTML={{__html: (t('rootpage.cookies-policy'))}} />
                         <p>TVA : BE1021.374.168</p>
                         <img src="/images/FULL_v1_white.png" alt="4Cores Logo"/>
