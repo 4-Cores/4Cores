@@ -1,0 +1,75 @@
+@use "../index" as *;
+@use "Politics_common" as *;
+
+@mixin Politics_phone{
+  @include Politics_common();
+
+  .Politics-home {
+    padding: 0.5% 1%;
+
+    a {
+      margin: 1px;
+      padding: 10px 20px;
+      background: white;
+      font-size: 0.75rem;
+    }
+
+    a:hover {
+      color: white;
+    }
+
+    a:active {
+      transform: scale(0.9);
+    }
+  }
+
+  .Politics-title {
+    padding: 15% 5% 3% 5%;
+
+    h1 {
+      padding-bottom: 2%;
+      font-size: 2rem;
+    }
+  }
+
+  .Politics {
+    padding: 1% 5% 2.5% 2.5%;
+
+    ul {
+      padding-bottom: 2%;
+    }
+
+    li {
+      margin-left: 40px;
+      padding-bottom: 1%;
+    }
+
+    .left {
+      display: none;
+    }
+
+    .right {
+      padding-left: 5%;
+
+      h2 {
+        font-size: 1.3rem;
+        color: #232323;
+        padding-bottom: 2%;
+      }
+
+      h3 {
+        padding-bottom: 2%;
+        color: #3a3a3a;
+      }
+
+      p {
+        padding-bottom: 2%;
+        font-size: 0.9rem;
+      }
+    }
+
+    .content {
+      padding-bottom: 7.5%;
+    }
+  }
+}
