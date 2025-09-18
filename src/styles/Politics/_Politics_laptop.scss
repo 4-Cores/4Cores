@@ -4,25 +4,6 @@
 @mixin Politics_laptop{
   @include Politics_common();
 
-  .Politics-home {
-    padding: 0.5% 1%;
-
-    a {
-      margin: 15px;
-      padding: 10px 20px;
-      background: transparent;
-      font-size: 0.75rem;
-    }
-
-    a:hover {
-      color: white;
-    }
-
-    a:active {
-      transform: scale(0.9);
-    }
-  }
-
   .Politics-title {
     padding: 3% 20%;
 
@@ -47,7 +28,7 @@
     .left {
       width: 25%;
       position: sticky;
-      top: 100px;
+      top: 125px;
     }
 
     .right {
@@ -71,7 +52,7 @@
     }
 
     .content {
-      padding-bottom: 7.5%;
+      padding-bottom: 2.5%;
     }
   }
 }

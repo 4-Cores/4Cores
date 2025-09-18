@@ -29,6 +29,7 @@
     h1 {
       padding-bottom: 2%;
       font-size: 2rem;
+      text-align: center;
     }
   }
 
@@ -45,9 +46,7 @@
     }
 
     .left {
-      width: 20%;
-      position: sticky;
-      top: 100px;
+      display: none;
     }
 
     .right {

@@ -53,12 +53,12 @@ export default function Politics() {
                             },
                             {
                                 key: '9',
-                                href: '#legale',
+                                href: '#base',
                                 title: t("politicspage.table.base"),
                                 children: [
                                     {
                                         key: '10',
-                                        href: '#consentement',
+                                        href: '#agreement',
                                         title: t("politicspage.table.agreement"),
                                     },
                                     {
@@ -68,7 +68,7 @@ export default function Politics() {
                                     },
                                     {
                                         key: '12',
-                                        href: '#interet',
+                                        href: '#interest',
                                         title: t("politicspage.table.interest"),
                                     },
                                     {
@@ -80,29 +80,39 @@ export default function Politics() {
                             },
                             {
                                 key: '14',
-                                href: '#confidentialite',
+                                href: '#confidentiality',
                                 title: t("politicspage.table.confidentiality"),
                             },
                             {
                                 key: '15',
-                                href: '#reseaux',
+                                href: '#network',
                                 title: t("politicspage.table.network"),
                             },
                             {
                                 key: '16',
-                                href: '#droits',
-                                title: t("politicspage.table.rights"),
+                                href: '#google',
+                                title: t("politicspage.table.google"),
                             }, {
                                 key: '17',
-                                href: '#protection',
+                                href: '#form',
+                                title: t("politicspage.table.form"),
+                            },
+                            {
+                                key: '18',
+                                href: '#rights',
+                                title: t("politicspage.table.rights"),
+                            }, {
+                                key: '19',
+                                href: '#autority',
                                 title: t("politicspage.table.protection"),
                             },
+
 
                         ]}
                     />
                 </aside>
                 <section className="right">
-                    <h2 id="identite">{t('politicspage.identity.title')}</h2>
+                    <h2 id="identity">{t('politicspage.table.identity')}</h2>
                     <section className="content">
                         <p>{t('politicspage.identity.p1')}</p>
                         <ul>
@@ -114,7 +124,7 @@ export default function Politics() {
                         <p>{t('politicspage.identity.p2')}</p>
                     </section>
                     <section className="content">
-                        <h2 id="traitement">{t('politicspage.treatment.title')}</h2>
+                        <h2 id="treatment">{t('politicspage.table.treatment')}</h2>
                         <p>{t('politicspage.treatment.p1')}</p>
                         <br/>
                         <ul>
@@ -126,52 +136,52 @@ export default function Politics() {
                         <p>{t('politicspage.treatment.p3')}</p>
                     </section>
                     <section className="content">
-                        <h2 id="finalite">{t('politicspage.finality.title')}</h2>
-                        <h3 id="demandes">{t('politicspage.finality.p1')}</h3>
+                        <h2 id="finality">{t('politicspage.table.finality')}</h2>
+                        <h3 id="request">{t('politicspage.table.request')}</h3>
                         <p>{t('politicspage.finality.sp1')}</p>
                         <p>{t('politicspage.finality.sp2')}</p>
-                        <h3 id="ameliorer">{t('politicspage.finality.p2')}</h3>
+                        <h3 id="upgrade">{t('politicspage.table.upgrade')}</h3>
                         <p>{t('politicspage.finality.sp3')}</p>
-                        <h3 id="securite">{t('politicspage.finality.p3')}</h3>
+                        <h3 id="security">{t('politicspage.table.security')}</h3>
                         <p>{t('politicspage.finality.sp4')}</p>
                         <p>{t('politicspage.finality.sp5')}</p>
                         <p>{t('politicspage.finality.sp6')}</p>
                     </section>
                     <section className="content">
-                        <h2 id="legale">{t('politicspage.base.title')}</h2>
+                        <h2 id="base">{t('politicspage.table.base')}</h2>
                         <p>{t('politicspage.base.p1')}</p>
-                        <h3 id="consentement">{t('politicspage.base.p2')}</h3>
+                        <h3 id="agreement">{t('politicspage.table.agreement')}</h3>
                         <p>{t('politicspage.base.p3')}</p>
                         <ul>
                             <li>{t('politicspage.base.sp1')}</li>
                             <li>{t('politicspage.base.sp2')}</li>
                         </ul>
                         <p>{t('politicspage.base.p4')}</p>
-                        <h3 id="execution">{t('politicspage.base.p5')}</h3>
+                        <h3 id="execution">{t('politicspage.table.execution')}</h3>
                         <p>{t('politicspage.base.p6')}</p>
-                        <h3 id="interet">{t('politicspage.base.p7')}</h3>
+                        <h3 id="interest">{t('politicspage.table.interest')}</h3>
                         <p>{t('politicspage.base.p8')}</p>
                         <ul>
                             <li>{t('politicspage.base.sp3')}</li>
                             <li>{t('politicspage.base.sp4')}</li>
                         </ul>
-                        <h3 id="obligation">{t('politicspage.base.p9')}</h3>
+                        <h3 id="obligation">{t('politicspage.table.obligation')}</h3>
                         <p>{t('politicspage.base.p10')}</p>
                     </section>
                     <section className="content">
-                        <h2 id="confidentialite">{t('politicspage.security.title')}</h2>
+                        <h2 id="confidentiality">{t('politicspage.table.confidentiality')}</h2>
                         <p>{t('politicspage.security.p1')}</p>
                     </section>
                     <section className="content">
-                        <h2 id="reseaux">{t('politicspage.network.title')}</h2>
+                        <h2 id="network">{t('politicspage.table.network')}</h2>
                         <p>{t('politicspage.network.p1')}</p>
                     </section>
                     <section className="content">
-                        <h2 id="droits">{t('politicspage.google.title')}</h2>
+                        <h2 id="google">{t('politicspage.table.google')}</h2>
                         <p>{t('politicspage.google.p1')}</p>
                     </section>
                     <section className="content">
-                        <h2 id="form">{t('politicspage.form.title')}</h2>
+                        <h2 id="form">{t('politicspage.table.form')}</h2>
                         <p>{t('politicspage.form.p1')}</p>
                         <p>{t('politicspage.form.p2')}</p>
                         <p>{t('politicspage.form.p3')}</p>
@@ -182,13 +192,13 @@ export default function Politics() {
                         <p>{t('politicspage.form.p5')}</p>
                     </section>
                     <section className="content">
-                        <h2 id="rights">{t('politicspage.rights.title')}</h2>
+                        <h2 id="rights">{t('politicspage.table.rights')}</h2>
                         <p>{t('politicspage.rights.p1')}</p>
                         <p>{t('politicspage.rights.p2')}</p>
                         <p>{t('politicspage.rights.p3')}</p>
                     </section>
                     <section className="content">
-                        <h2 id="authority">{t('politicspage.autority.title')}</h2>
+                        <h2 id="autority">{t('politicspage.table.protection')}</h2>
                         <p>{t('politicspage.autority.p1')}</p>
                         <a href={t('politicspage.autority.a1')}>{t('politicspage.autority.a1')}</a>
                         <br />
