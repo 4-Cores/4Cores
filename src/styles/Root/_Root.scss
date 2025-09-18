@@ -90,6 +90,10 @@
         }
       }
       .right{
+        display: flex;
+        justify-content: flex-end;
+        width: 30%;
+
         a{
           background-color:#003566;
           color: #ffffff;
