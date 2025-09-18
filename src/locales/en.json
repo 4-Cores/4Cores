@@ -6,7 +6,8 @@
   "rootpage": {
     "4cores": "SASPJ © 4CORES - All rights reserved",
     "conditions": "Terms and conditions",
-    "cookies-policy": "Cookies policy"
+    "cookies-policy": "Cookies policy",
+    "politics": "Privacy policy"
   },
   "homepage": {
     "title": "Integrated technological <span class='blue'>solutions</span> for optimal performance of <span class='blue'>your business</span>.",
@@ -180,6 +181,103 @@
     "banner": {
       "title": "Your privacy is important to us!",
       "description": "This website only uses essential cookies to remember your preferred language and to collect audience statistics."
+    }
+  },
+  "politicspage": {
+    "title" : "Privacy policy",
+    "last-update": "Last update : 17/09/25",
+    "table": {
+      "identity": "1. Identity of the data controller",
+      "treatment": "2. Processing of personal data",
+      "finality": "3. Purpose of processing",
+      "request": "3.1 Responding to user requests",
+      "upgrade": "3.2 Improving service quality",
+      "security": "3.3 Ensuring website security",
+      "base": "4. Legal basis",
+      "agreement": "4.1 Consent (Article 6, §1, a of the GDPR)",
+      "execution": "4.2 Performance of a contract or pre-contractual measures (Article 6, §1, b)",
+      "interest": "4.3 Legitimate interest (Article 6, §1, f)",
+      "obligation": "4.4 Compliance with a legal obligation (Article 6, §1, c)",
+      "confidentiality": "5. Security and confidentiality",
+      "network": "6. Social networks",
+      "google": "7. Google Fonts",
+      "form": "8. Contact form",
+      "rights": "9. Exercising your rights",
+      "protection": "10. Data protection authority"
+    },
+
+    "identity": {
+      "p1": "The publication and management of the website 'https://www.4cores.be/' are provided by 'SASPJ 4CORES', whose administrative address is 'Rue du Fort d’Andoy (WD) 83, 5100 Namur'.",
+      "sp1": "Phone number: +32 492 87 64 05, +32 473 17 10 56",
+      "sp2": "Email address: contact@4cores.be",
+      "sp3": "Company number: 1021.374.168",
+      "sp4": "VAT number: BE 1021.374.168",
+      "p2": "We care about your privacy and whenever we process your personal data, we do so in accordance with the provisions of the General Data Protection Regulation and national law relating to personal data processing. Under data protection legislation, we are required to make the information contained in this privacy policy accessible to you."
+    },
+    "treatment": {
+      "p1": "Personal data, or personal information, means any information about an individual from which that person can be identified. It does not include data where the identity has been removed (anonymous data).",
+      "p2": "We strive to collect as little personal information as possible to achieve our objectives. Specifically, we may collect all or part of the following data elements:",
+      "sp1": "Electronic identification data:",
+      "sp2": "Contact form: first name, last name, email, request description",
+      "sp3": "IP address",
+      "sp4": "Web browsing data through logging by our IT system managing the website, for service improvement and security purposes.",
+      "p3": "Note: No cookies are used on this website."
+    },
+    "finality": {
+      "p1": "Responding to user requests",
+      "sp1": "Processing data provided via contact forms (first name, last name, email, message).",
+      "sp2": "Allows us to connect with visitors, provide personalized responses, schedule appointments, or provide quotes.",
+      "p2": "Improving service quality",
+      "sp3": "Detecting bugs or friction points to optimize user experience.",
+      "p3": "Ensuring website security",
+      "sp4": "Collecting and analyzing web server logs (IP address, timestamp, requests).",
+      "sp5": "Detecting intrusion attempts, malicious access, or abnormal behavior.",
+      "sp6": "Taking corrective technical measures (system updates, IP blocking, etc.)."
+    },
+    "base": {
+      "p1": "We process your personal data in accordance with the legal bases provided by the General Data Protection Regulation (GDPR), depending on the nature of each interaction with our site:",
+      "p2": "Consent (Article 6, §1, a of GDPR)",
+      "p3": "We collect your explicit consent when:",
+      "sp1": "You fill out a contact form.",
+      "sp2": "By continuing to use this site, you acknowledge having read this privacy policy.",
+      "p4": "You may withdraw your consent at any time by contacting us.",
+      "p5": "Performance of a contract or pre-contractual measures (Article 6, §1, b)",
+      "p6": "When you request a quote, a service, or information related to a potential collaboration, we must process certain data to respond.",
+      "p7": "Legitimate interest (Article 6, §1, f)",
+      "p8": "We have a legitimate interest to:",
+      "sp3": "Ensure site security and prevent abuse or hacking attempts.",
+      "sp4": "Improve the quality of our services and user experience, in a proportionate and privacy-respectful manner.",
+      "p9": "Compliance with a legal obligation (Article 6, §1, c)",
+      "p10": "We may be required to retain certain data to meet accounting, tax, or billing obligations."
+    },
+    "security": {
+      "p1": "We are committed to keeping your personal data secure and confidential and have established security procedures to prevent any loss, misuse, or alteration of such personal data in accordance with industry best practices."
+    },
+    "network": {
+      "p1": "When you use the Like and Share social media buttons that may appear on our website or visit our social media page, please note that personal data is processed by the social media platform. In this process, the applicable European regulator considers us, along with the social media platform, as joint controllers of the data processing."
+    },
+    "google": {
+      "p1": "The site uses Google Fonts for font display. When you visit the site, a connection is established with Google's servers to load these fonts. This may result in the transmission of certain technical data to Google. For more information, you can consult the Google Fonts privacy policy: https://developers.google.com/fonts/faq."
+    },
+    "form": {
+      "p1": "When you use our contact form, the data you enter (first name, last name, email address, message, company name) is transmitted to our email management system via Mailjet, a third-party email service provider.",
+      "p2": "This transfer is carried out via a secure connection (HTTPS). No data is stored on the site itself. Mailjet does not install cookies on your device as part of this process.",
+      "p3": "The transmitted data is used solely to process your request (response, contact, information delivery). It is processed in accordance with Mailjet's privacy policy, available here: https://www.mailjet.com/legal/privacy-policy/",
+      "p4": "We ask that you do not include sensitive personal data in your message, such as:",
+      "sp1": "Identity card, social security, or bank account numbers;",
+      "sp2": "Medical or health-related information;",
+      "sp3": "Confidential data or data particularly protected by law.",
+      "p5": "This data is not necessary for processing your request and must not be transmitted via our form under any circumstances."
+    },
+    "rights": {
+      "p1": "In accordance with the General Data Protection Regulation, you have several rights.",
+      "p2": "You can exercise your rights by contacting our privacy coordinator at contact@4cores.be or at the address below:",
+      "p3": "SASPJ 4Cores: Rue du Fort d’Andoy 83, 5100 Namur"
+    },
+    "autority": {
+      "p1": "You can address your complaints and comments to the competent data protection authority at the address below: Gegevensbeschermingsautoriteit / Data Protection Authority Drukpersstraat 35, 1000 Brussels / Rue de la Presse 35, 1000 Brussels.",
+      "a1": "https://gegevensbeschermingsautoriteit.be",
+      "a2": "https://autoriteprotectiondonnees.be"
     }
   },
   "close" : "Close",

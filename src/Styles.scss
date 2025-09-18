@@ -8,6 +8,7 @@
 @use "./styles/CookieBanner" as Cookie;
 @use "./styles/Projects" as Projects;
 @use "./styles/Globals" as Globals;
+@use "./styles/Politics" as Politics;
 
 @font-face {
   font-family: "Bayon", sans-serif;
@@ -25,6 +26,8 @@
   @include About.About;
   @include Cookie.Cookie;
   @include Projects.Projects;
+  @include Politics.Politics_desktop;
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
@@ -36,6 +39,7 @@
   @include Contact.Contact_laptop;
   @include Soon.Soon_laptop;
   @include Projects.Projects_laptop;
+  @include Politics.Politics_laptop
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -48,6 +52,7 @@
   @include About.About_phone;
   @include Cookie.Cookie_phone;
   @include Projects.Projects_tablet;
+  @include Politics.Politics_tablet;
 }
 
 @media screen and (max-width: 767px) {
@@ -60,4 +65,5 @@
   @include About.About_phone;
   @include Cookie.Cookie_phone;
   @include Projects.Projects_phone;
+  @include Politics.Politics_phone;
 }
