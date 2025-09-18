@@ -6,7 +6,8 @@
   "rootpage": {
     "4cores" : "SASPJ © 4CORES - Tous droits réservés",
     "conditions": "Conditions générales",
-    "cookies-policy": "Politique de cookies"
+    "cookies-policy": "Politique de cookies",
+    "politics": "Politique de confidentialité"
   },
   "homepage": {
     "title": "Des <span class='blue'>solutions</span> technologiques intégrées pour une performance optimale de <span class='blue'>votre entreprise.",
@@ -180,6 +181,102 @@
     "banner": {
       "title": "Votre vie privée est une priorité",
       "description": "Ce site web utilise uniquement des cookies essentiels pour mémoriser votre langue par défaut et réaliser des statistiques d’audience."
+    }
+  },
+  "politicspage" : {
+    "title" : "Politique de confidentialité",
+    "last-update": "Dernière mise à jour : 17/09/25",
+    "table" : {
+      "identity" : "1. Identité du responsable du traitement",
+      "treatment" : "2. Traitement des données personnelles",
+      "finality" : "3. Finalité de traitement",
+      "request" : "3.1 Répondre aux demandes des utilisateurs",
+      "upgrade" : "3.2 Améliorer la qualité des services",
+      "security": "3.3 Assurer la sécurité du site web",
+      "base" : "4. Base légale",
+      "agreement" : "4.1 Le consentement (article 6, §1, a du RGPD)",
+      "execution" : "4.2 L’exécution d’un contrat ou de mesures précontractuelles (article 6, §1, b)",
+      "interest" : "4.3 L’intérêt légitime (article 6, §1, f)",
+      "obligation" : "4.4 Le respect d’une obligation légale (article 6, §1, c)",
+      "confidentiality" : "5. Sécurité et confidentialité",
+      "network" : "6. Réseau sociaux",
+      "google" : "7. Google Fonts",
+      "form" : "8. Formulaire de contact",
+      "rights" : "9. Exercer vos droits",
+      "protection" : "10. Autorité de protection des données"
+    },
+    "identity" : {
+      "p1" : "L'édition et la direction de la publication du site « https://www.4cores.be/ » sont assurées par « SASPJ 4CORES », dont l’adresse administrative est située à « Rue du Fort d’Andoy (WD) 83, 5100 Namur ».",
+      "sp1": "Numéro de téléphone : +32 492 87 64 05, +32 473 17 10 56",
+      "sp2": "Adresse électronique : contact@4cores.be",
+      "sp3": "Numéro d'entreprise : 1021.374.168",
+      "sp4": "Numéro de TVA : BE 1021.374.168",
+      "p2": "Nous nous soucions de votre vie privée et chaque fois que nous traitons vos données personnelles, nous le faisons conformément aux dispositions du règlement général sur la protection des données et de la loi nationale relative au traitement des données personnelles. Nous sommes tenus, en vertu de la législation sur la protection des données, de vous rendre accessibles les informations contenues dans cette politique de confidentialité."
+    },
+    "treatment": {
+      "p1": "Les données personnelles, ou informations personnelles, désignent toute information sur une personne à partir de laquelle cette personne peut être identifiée. Il n'inclut pas les données dont l'identité a été supprimée (données anonymes).",
+      "p2": "Nous essayons de collecter le moins d'informations personnelles possible afin d'atteindre nos objectifs. Plus précisément, nous collecterons tout ou partie des éléments de données suivants: ",
+      "sp1": "Données d'identification électronique : ",
+      "sp2": "Formulaire de contact : nom, prénom, e-mail, description de la requête",
+      "sp3": "Adresse IP",
+      "sp4": "Données de navigation web via la journalisation de notre système informatique qui gère le site web, cela à des fins d’améliorations des services et sécurité.",
+      "p3": "À noter : aucun cookie n’est utilisé sur ce site web."
+    },
+    "finality" : {
+      "p1": "Répondre aux demandes des utilisateurs",
+      "sp1": "Traitement des données fournies via les formulaires de contact (nom, prénom, e mail, message).",
+      "sp2": "Permet d’entrer en relation avec le visiteur, d’apporter une réponse personnalisée, de fixer un rendez-vous ou de fournir un devis.",
+      "p2": "Améliorer la qualité des services",
+      "sp3": "Détection de bugs ou points de friction pour optimiser l’expérience utilisateur.",
+      "p3": "Assurer la sécurité du site web",
+      "sp4": "Collecte et analyse des logs du serveur web (adresse IP, horodatage, requêtes).",
+      "sp5": "Détection de tentatives d’intrusion, accès malveillants ou comportements anormaux.",
+      "sp6": "Prise de mesures techniques correctives (mise à jour des systèmes, blocage d’IP, etc.)."
+    },
+    "base" : {
+      "p1": "Nous traitons vos données personnelles conformément aux bases légales prévues par le Règlement Général sur la Protection des Données (RGPD), en fonction de la nature de chaque interaction avec notre site :",
+      "p2": "Le consentement (article 6, §1, a du RGPD)",
+      "p3": "Nous recueillons votre consentement explicite lorsque :",
+      "sp1": "Vous remplissez un formulaire de contact.",
+      "sp2": "En continuant à utiliser ce site, vous reconnaissez avoir pris connaissance de la présente politique de confidentialité.",
+      "p4": "Vous pouvez retirer votre consentement à tout moment en nous contactant.",
+      "p5": "L’exécution d’un contrat ou de mesures précontractuelles (article 6, §1, b)",
+      "p6": "Lorsque vous demandez un devis, une prestation ou une information en lien avec une éventuelle collaboration, nous devons traiter certaines données pour pouvoir y répondre.",
+      "p7": "L’intérêt légitime (article 6, §1, f)",
+      "p8": "Nous avons un intérêt légitime à :",
+      "sp3": "Assurer la sécurité du site et prévenir les abus ou tentatives de piratage.",
+      "sp4": "Améliorer la qualité de nos services et l’expérience utilisateur, de manière proportionnée et respectueuse de votre vie privée.",
+      "p9": "Le respect d’une obligation légale (article 6, §1, c)",
+      "p10": "Nous pouvons être amenés à conserver certaines données pour répondre à des obligations comptables, fiscales ou en matière de facturation."
+    },
+    "security": {
+      "p1": "Nous nous engageons à garder vos données personnelles sécurisées et confidentielles et avons établi des procédures de sécurité pour éviter toute perte, abus ou altération de ces données personnelles conformément aux meilleures pratiques de l'industrie."
+    },
+    "network": {
+      "p1": "Lorsque vous utilisez les boutons de médias sociaux Like et Partage qui peuvent figurer sur notre site Web ou que vous visitez notre page de réseaux sociaux, veuillez noter que les données personnelles sont traitées par la plateforme de médias sociaux. Dans ce procédé, le régulateur européen applicable nous considère, ainsi que la plateforme de médias sociaux, comme des responsables conjoints du traitement des données."
+    },
+    "google": {
+      "p1": "Le site utilise Google Fonts pour l’affichage des polices. Lorsque vous visitez le site, une connexion est établie avec les serveurs de Google pour charger ces polices. Cela peut entraîner la transmission de certaines données techniques à Google. Pour plus d’informations, vous pouvez consulter la politique de confidentialité de Google Fonts : https://developers.google.com/fonts/faq."
+    },
+    "form": {
+      "p1": "Lorsque vous utilisez notre formulaire de contact, les données que vous saisissez (nom, prénom, adresse e-mail, message, nom de l’entreprise) sont transmises à notre système de gestion des e-mails via Mailjet, un prestataire tiers d’envoi d’e-mails.",
+      "p2": "Ce transfert s’effectue via une connexion sécurisée (HTTPS). Aucune donnée n’est stockée sur le site lui-même. Mailjet n’installe pas de cookies sur votre appareil dans le cadre de cet envoi.",
+      "p3": "Les données transmises sont uniquement utilisées pour traiter votre demande (réponse, prise de contact, envoi d’informations). Elles sont traitées conformément à la politique de confidentialité de Mailjet, disponible ici : https://www.mailjet.com/fr/legal/politique-confidentialite/",
+      "p4": "Nous vous demandons de ne pas inclure de données personnelles sensibles dans votre message, telles que :",
+      "sp1": "Numéros de carte d’identité, de sécurité sociale ou de compte bancaire ;",
+      "sp2": "Informations médicales ou liées à la santé ;",
+      "sp3": "Données confidentielles ou particulièrement protégées par la loi.",
+      "p5": "Ces données ne sont pas nécessaires pour le traitement de votre demande et ne doivent en aucun cas être transmises via notre formulaire."
+    },
+    "rights": {
+      "p1": "Conformément au règlement général sur la protection des données, vous disposez de plusieurs droits. ",
+      "p2": "Vous pouvez exercer vos droits en contactant notre coordinateur de la confidentialité via  contact@4cores.be ou à l'adresse ci-dessous : ",
+      "p3": "SASPJ 4Cores : Rue du Fort d’Andoy 83, 5100 Namur"
+    },
+    "autority": {
+      "p1": "Vous pouvez adresser vos réclamations et commentaires à l'autorité de protection des données compétente à l'adresse ci-dessous: Gegevensbeschermingsautoriteit / Autorité de protection des données Drukpersstraat 35, 1000 Brussel / Rue de la Presse 35, 1000 Bruxelles.",
+      "a1": "https://gegevensbeschermingsautoriteit.be",
+      "a2": "https://autoriteprotectiondonnees.be"
     }
   },
   "more": "Étendre",
