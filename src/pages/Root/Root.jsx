@@ -75,15 +75,15 @@ export default function Root(){
                             <img src="/images/FULL_v1_white.png" alt="4Cores Logo"/>
                         </article>
                         <article className="right">
-                            <NavLink to="/Contact" dangerouslySetInnerHTML={{__html: (t('contact'))}}/>
+                            <NavLink className="fancy-button" to="/Contact" dangerouslySetInnerHTML={{__html: (t('contact'))}}/>
                         </article>
                     </section>
                     <section className="bottom">
                         <article className="left">
                             {currentYear}
                             <p dangerouslySetInnerHTML={{__html: (t('rootpage.4cores'))}}/>
-                            <p dangerouslySetInnerHTML={{__html: (t('rootpage.conditions'))}}/>
-                            <NavLink to={"/cookie"} dangerouslySetInnerHTML={{__html: (t('rootpage.cookies-policy'))}}/>
+                            <a href="/docs/Conditions_generales_utilisation_4cores.pdf" download> {t('rootpage.conditions')}</a>
+                            <NavLink to="/politics" dangerouslySetInnerHTML={{__html: (t('rootpage.politics'))}}/>
                             <p>TVA : BE1021.374.168</p>
                         </article>
                         <article className="right">
@@ -96,11 +96,11 @@ export default function Root(){
                     <section className="top">
                         <a id="noblue" href="mailto:contact@4cores.be"><img src="/images/courrier-b.png" alt="mail logo"/></a>
                         <a id="noblue" href="https://www.linkedin.com/company/4coresolutions"><img src="/images/linkedin.png" alt="linkedin logo"/></a>
-                        <NavLink to="/Contact" dangerouslySetInnerHTML={{__html: (t('contact'))}}/>
+                        <NavLink className="fancy-button" to="/Contact" dangerouslySetInnerHTML={{__html: (t('contact'))}}/>
                     </section>
                     <section className="bottom">
                         <p dangerouslySetInnerHTML={{__html: (t('rootpage.general-conditions'))}} />
-                        <NavLink to="/cookie" dangerouslySetInnerHTML={{__html: (t('rootpage.cookies-policy'))}} />
+                        <NavLink to="/politics" dangerouslySetInnerHTML={{__html: (t('rootpage.politics'))}} />
                         <p>TVA : BE1021.374.168</p>
                         <img src="/images/FULL_v1_white.png" alt="4Cores Logo"/>
                         <p dangerouslySetInnerHTML={{__html: (t('rootpage.4cores'))}} />
