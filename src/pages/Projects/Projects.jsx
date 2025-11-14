@@ -25,11 +25,23 @@ export default function Projects() {
             title : t('projectspage.eyup.title'),
             description : t('projectspage.eyup.description'),
             link : "https://ecplafonnage.be",
+        },
+        {
+            image : "/images/projects/qs_bg.png",
+            title : t('projectspage.qs-motor.title'),
+            description : t('projectspage.qs-motor.description'),
+            link : "https://qsmotor.be",
+        },
+        {
+            image : "/images/projects/hm_bg.png",
+            title : t('projectspage.hm.title'),
+            description : t('projectspage.hm.description'),
+            link : "https://hmplatre.be",
         }
     ]
 
     const [current, setCurrent] = useState(1);
-    const pageSize = 3;
+    const pageSize = 6;
 
     const paginatedProjects = projects.slice((current - 1) * pageSize, current * pageSize);
 
